@@ -2,6 +2,7 @@
 from django.db import models
 
 class UserInfo(models.Model):
+
     uname = models.CharField(max_length=10)
     upwd = models.CharField(max_length=40)
     uemail = models.CharField(max_length=30)

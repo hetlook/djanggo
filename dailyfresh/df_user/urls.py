@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^info/$', views.user_center_info),
     url(r'^site/$', views.user_center_site),
     url(r'^order/$', views.user_center_order),
+    url(r'^logout/$', views.logout),
 ]
